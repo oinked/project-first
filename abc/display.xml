@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+        <!--
+                配置要显示的节点结构体信息
+                        name为对应的结构体名称
+                        display为是否显示该表格
+                                        item中的key为结构体的字段名
+                                        item中的displayName为在界面上显示该字段时，呈现给用户的名字
+                                        item中的type为该字段的数据类型
+                        -->
+        <tabel name="FHQ" display="1">
+                <item key="longitude" displayName="综合经度" type="double"></item>
+                <item key="latitude" displayName="综合纬度" type="double"></item>
+                <item key="altitude" displayName="高度" type="double"></item>
+                <item key="speed" displayName="真空速" type="double"></item>
+                <item key="vx" displayName="x轴速度" type="double"></item>
+                <item key="vy" displayName="y轴速度" type="double"></item>
+                <item key="vz" displayName="z轴速度" type="double"></item>
+               <!--<item key="pitch" displayName="俯仰角" type="double"></item>
+                <item key="roll" displayName="滚转角" type="double"></item>
+        <item key="yaw" displayName="偏航角" type="double"></item>-->
+
+        </tabel>
+        <tabel name="JDK" display="0">
+                <item key="attribute1" displayName="变量1" type="int"></item>
+                <item key="attribute2" displayName="变量2" type="short"></item>
+                <item key="attribute3" displayName="变量3" type="double"></item>
+        </tabel>
+        <tabel name="InitData" display="1">
+                <item key="attribute1" displayName="变量5" type="int"></item>
+                <item key="attribute2" displayName="变量6" type="short"></item>
+                <item key="attribute3" displayName="变量7" type="double"></item>
+        </tabel>
+        <tabel name="IOS" display="1">
+                <item key="attribute1" displayName="变量1" type="int"></item>
+                <item key="attribute2" displayName="变量2" type="short"></item>
+                <item key="attribute3" displayName="变量3" type="double"></item>
+        </tabel>
+        <tabel name="MIU" display="1">
+                <item key="attribute1" displayName="变量1" type="int"></item>
+                <item key="attribute2" displayName="变量2" type="short"></item>
+                <item key="attribute3" displayName="变量3" type="double"></item>
+        </tabel>
+
+</root>
